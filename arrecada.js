@@ -1,45 +1,40 @@
-
 // GERÊNCIA
 
-CENTRO=147609.98
-CENTROSUL=210766.32
-LESTE=215333.90
-NORTE=314056.68
-OESTE=210647.15
-SUL=143011.36
-AGRESTECENTRAL=249249.81
-AGRESTEMERIDIONAL=119654.11
-ALTOCAPIBARIBE=65346.32
-ALTODOPAJEU=65346.32
-IPOJUCA=97115.45
-MATANORTE=218254.46
-MATASUL=123123.86
-MOXOTO=97293.55
-PAJEU=145242.69
-RUSSAS=191022.79
-SAOFRANCISCO=327727.14
-SERTAO=231548.89
+GNMCENTRO = 151743.1;
+GNMCENTROSUL = 202704.45;
+GNMLESTE = 209427.82;
+GNMNORTE = 320147.71;
+GNMOESTE = 205322.01;
+GNMSUL = 112836.49;
+GNRAGRESTECENTRAL = 213926.08;
+GNRAGRESTEMERIDIONAL = 115017.4;
+GNRALTOCAPIBARIBE = 72510.7;
+GNRALTODOPAJEU = 68198.94;
+GNRIPOJUCA = 83710.23;
+GNRMATANORTE = 165965.74;
+GNRMATASUL = 122905.61;
+GNRMOXOTO = 84469.08;
+GNRPAJEU = 156650.55;
+GNRRUSSAS = 224381.36;
+GNRSAOFRANCISCO = 273717.33;
+GNRSERTAO = 216365.4;
+TOTAL = 3000000.0;
+DRM = 1202181.58;
+DRI = 1797818.42;
 
-TOTAL=3000000.00
+let g = "TOTA";
+n = TOTA;
 
-
-
-let g = "CENTRO" 
-n = CENTRO
-
-
-function arrecada (g, n) {
-
-    result = n / 3;
-    result2 = result * 2
-    return console.log(`gerencia: ${g} 
+function arrecada(g, n) {
+  result = n / 3;
+  result2 = result * 2;
+  return console.log(`gerencia: ${g} 
     result ${result.toFixed(2)} 
     result2 ${result2.toFixed(2)}
     total ${n}`);
-        
 }
 
-arrecada(g, n)
+arrecada(g, n);
 
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.forEach((number, index, array) => {
